@@ -1,0 +1,19 @@
+.footer-container {
+  max-width: 1200px;
+  padding: 40px 15px;
+  margin: 0 auto;
+}
+
+.left-foot {
+  float: left;
+}
+
+.right-foot {
+  float: right;
+  display: flex;
+}
+
+.right-foot img {
+  margin-left: 5px;
+  display: inline-block;
+}

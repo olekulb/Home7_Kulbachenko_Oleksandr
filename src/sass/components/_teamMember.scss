@@ -1,0 +1,29 @@
+.member {
+  filter: grayscale(1);
+  box-sizing: border-box;
+  &:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    & .hover-photo {
+      transform: scale(1.0);
+      transition: 0.5s;
+      border-bottom: 5px solid $main-color;
+      overflow: hidden;
+    }
+  }
+}
+
+.hover-photo {
+  padding: 0;
+  border-bottom: 5px solid transparent;
+  overflow: hidden;
+  transform: scale(0.8);
+  transform-origin: bottom;
+  margin-bottom: 30px;
+}
+
+.hover-photo img {
+  max-width: 100%;
+  margin: 0;
+  border-radius: 10px;
+}

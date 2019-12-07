@@ -1,0 +1,14 @@
+.bullet {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 0 solid $main-text-color;
+  border-radius: 100%;
+  background-color: #C4C6C9;
+  margin-right: 20px;
+  &:hover {
+    background-color: $main-color;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}

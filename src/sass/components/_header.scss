@@ -1,0 +1,37 @@
+.main-header {
+  background-image: url("../img/macbook-925614.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.menu a {
+  color: $main-text-color;
+  padding-right: 20px;
+  &:hover {
+    color: $main-color;
+  }
+}
+
+.menu img:hover {
+  cursor: pointer;
+}
+
+.header-content {
+  color: $main-text-color;
+}
+
+.header-content p {
+  font-size: 25px;
+  line-height: 40px;
+  overflow: hidden;
+}
+
+.header-content h2 {
+  font-size: 70px;
+}
+
+.arrow-down:hover {
+  cursor: pointer;
+}

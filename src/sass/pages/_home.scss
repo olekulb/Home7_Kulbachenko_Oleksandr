@@ -1,0 +1,81 @@
+.pict-print {
+  background-image: url("../img/print.jpg");
+}
+
+.pict-web {
+  background-image: url("../img/web.jpg");
+}
+
+.pict-app {
+  background-image: url("../img/app.jpg");
+}
+
+.pict-logo {
+  background-image: url("../img/logo.jpg");
+}
+
+.form-field {
+  background-image: url("../img/tablet-791051.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.our-works, .our-team {
+  background-color: $main-text-color;
+}
+
+.works-container p {
+  color: $second-text-color;
+  font-size: $main-font-size;
+  line-height: $base-line-height;
+}
+
+.say {
+  background-image: url("../img/woman-690036.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.clients, .contact-container h2 {
+  color: $main-text-color;
+}
+
+.phrase {
+  font-size: 30px;
+}
+
+.team-container p {
+  color: $second-text-color;
+  font-size: $main-font-size;
+  text-align: center;
+  line-height: $base-line-height;
+}
+
+.team-container ul {
+  list-style-type: none;
+}
+
+.team-socnet {
+  list-style-type: none;
+  transform: scale(0.5);
+}
+
+.team-socnet li {
+  border: 0 solid $main-text-color;
+}
+
+.contact {
+  background-image: url("../img/city-937541.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.contact-container p {
+  color: $main-text-color;
+  text-align: center;
+  font-size: 20px;
+  line-height: 35px;
+}
+

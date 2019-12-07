@@ -1,0 +1,24 @@
+@import "normalize/import-now";
+
+@import 'utils/variables';
+
+@import 'base/basic';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/fon';
+@import 'components/invisibleTitle';
+@import 'components/buttons';
+@import 'components/header';
+@import 'components/services';
+@import 'components/footer';
+@import 'components/forms';
+@import 'components/projects';
+@import 'components/clients';
+@import 'components/sideArrows';
+@import 'components/bullets';
+@import 'components/teamMember';
+
+@import 'pages/home';

@@ -1,0 +1,27 @@
+.our-services {
+  background-color: $main-text-color;
+}
+
+.services-container ul {
+  color: $second-text-color;
+}
+
+.services-container li {
+  color: $second-text-color;
+}
+
+.services-container li h3 {
+  font-size: $main-font-size;
+}
+
+.services-container li p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.pict {
+  border: 1px solid #C5C7CA;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

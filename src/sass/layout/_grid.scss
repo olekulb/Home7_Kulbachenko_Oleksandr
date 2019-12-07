@@ -1,0 +1,234 @@
+.services-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 15px;
+  box-sizing: border-box;
+}
+
+.services-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: auto;
+}
+
+.services-container li {
+  width: 25%;
+  float: left;
+  display: inline;
+}
+
+.services-container li h3 {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.services-container li p {
+  width: 100%;
+  max-height: 66px;
+  overflow: hidden;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.pict {
+  width: 154px;
+  height: 154px;
+  margin: 0 auto;
+}
+
+.newsletter {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 15px;
+  display: flex;
+}
+
+.form-body {
+  margin: auto;
+}
+
+.works-container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.works-container p {
+  max-width: 455px;
+  max-height: 51px;
+  overflow: hidden;
+  text-align: center;
+  margin: 40px auto 40px auto;
+}
+
+.works-container h2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.works-container ul {
+  max-width: 1200px;
+  margin: 100px auto 0 auto;
+  box-sizing: border-box;
+}
+
+.clients {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.left-side {
+  float: left;
+  display: inline-block;
+  width: 5%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+}
+
+.client-wrapper {
+  display: inline-block;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.right-side {
+  float: right;
+  display: inline-block;
+  width: 5%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+}
+
+.phrase {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.client-name {
+  max-width: 100px;
+  margin: 30px auto 0 auto;
+  padding-bottom: 100px;
+}
+
+.team-container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.team-container h2 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.team-container p {
+  max-width: 455px;
+  max-height: 51px;
+  overflow: hidden;
+  margin: 0 auto 100px auto;
+}
+
+.team-container ul {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.team-container li {
+  box-sizing: border-box;
+  float: left;
+  display: inline;
+  margin: 0 2% 0 0;
+  width: 23%;
+  border-radius: 10px;
+}
+
+.member h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.member p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.team-socnet {
+  padding-left: 0;
+  margin: 30px auto;
+}
+
+.team-socnet li {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  margin: 0 auto;
+}
+
+.bullets {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px 80px 15px;
+}
+
+.contact-form {
+  position: relative;
+}
+
+.contact-container h2 {
+  margin: 0 auto 25px auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.contact-container p {
+  max-width: 600px;
+  margin: 0 auto 90px auto;
+}
+
+.contact-body, .contact-body fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0 solid #000;
+}
+
+.contact-email, .object-name {
+  width: 47%;
+  height: 50px;
+  margin-right: 15px;
+  padding-left: 15px;
+}
+
+.message-text {
+  width: 97%;
+  height: 200px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.contact-email, .object-name, .message-text, .contact-button {
+  margin: 15px;
+  float: left;
+}
+
+.social-nets {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.social-nets a {
+  margin: 0 15px 15px 0;
+}

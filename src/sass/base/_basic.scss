@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page-font {
+  color: $main-color;
+}
+
+.visible-title {
+  font-size: $title-font-size;
+}

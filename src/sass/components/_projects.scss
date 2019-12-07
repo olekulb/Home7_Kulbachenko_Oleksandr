@@ -1,0 +1,91 @@
+.works-container li {
+  float: left;
+  display: inline;
+  margin: 15px;
+  width: 30%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.first-work {
+  background-image: url("../img/imac-p1.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.second-work {
+  background-image: url("../img/office-p2.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.third-work {
+  background-image: url("../img/business-p3.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.fourth-work {
+  background-image: url("../img/ipad-p4.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.fifth-work {
+  background-image: url("../img/technology-p5.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.sixth-work {
+  background-image: url("../img/macbook-p6.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.hover-layer {
+  width: 100%;
+  height: 360px;
+  border: 1px solid $main-text-color;
+  border-radius: 10px;
+  background-color: $main-color;
+  opacity: 0;
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+}
+
+.hover-layer h3 {
+  color: $main-text-color;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hover-layer p {
+  width: 80%;
+  max-height: 50px;
+  overflow: hidden;
+  color: $main-text-color;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.hover-layer div {
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid $main-text-color;
+  background-color: $main-text-color;
+  font-size: $main-font-size;
+  text-align: center;
+  padding-top: 14px;
+  margin: 0 auto;
+}
+
+.project-button {
+  color: $main-color;
+}

@@ -1,0 +1,56 @@
+.fon-header-position {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.main-menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.main-logo {
+  float: left;
+  margin: auto;
+}
+
+.menu {
+  float: right;
+  margin: auto;
+}
+
+.header-content h2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-content p {
+  max-width: 775px;
+  max-height: 75px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button-wrapper {
+  margin: 50px auto 100px auto;
+  max-width: 460px;
+}
+
+.button:first-child {
+  float: left;
+}
+
+.button:last-child {
+  float: right;
+}
+
+.arrow-down {
+  margin-bottom: 50px;
+}

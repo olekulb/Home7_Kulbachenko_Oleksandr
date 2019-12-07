@@ -1,0 +1,14 @@
+.email-field {
+  width: 562px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: $main-font-size;
+  display: inline-block;
+  margin-right: 30px;
+  padding-left: 15px;
+}
+
+.contact-email, .object-name {
+  border-radius: 10px;
+  font-size: $main-font-size;
+}

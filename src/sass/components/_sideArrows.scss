@@ -1,0 +1,9 @@
+.right-side a, .left-side a {
+  font-size: 60px;
+  color: #717479;
+  text-align: center;
+  &:hover {
+    color: $main-color;
+  }
+}
+
